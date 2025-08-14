@@ -1,0 +1,6 @@
+@PassportReservation_HostAddress = http://localhost:5134
+
+GET {{PassportReservation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

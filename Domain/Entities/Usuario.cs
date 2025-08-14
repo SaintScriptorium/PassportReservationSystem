@@ -1,0 +1,21 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace Domain.Entities;
+
+public class Usuario
+{
+    [Key]
+    public Guid Id { get; set; }
+    [Required,EmailAddress,MaxLength(100)]
+    public string Email { get; set; }
+    [Required,MinLength(8)]
+    public string Password { get; set; }
+    [Required,StringLength(11, MinimumLength = 11)]
+    public string Cedula { get; set; }
+    [Required, MaxLength(50)]
+    public int Nombre { get; set; }
+    [Required, MaxLength(50)]
+    public int Apellido { get; set; }
+
+    public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.Now;
+}

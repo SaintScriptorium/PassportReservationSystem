@@ -1,0 +1,11 @@
+J:\c# projects\PassportReservation\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+J:\c# projects\PassportReservation\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+J:\c# projects\PassportReservation\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+J:\c# projects\PassportReservation\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+J:\c# projects\PassportReservation\Domain\bin\Debug\net8.0\Domain.deps.json
+J:\c# projects\PassportReservation\Domain\bin\Debug\net8.0\Domain.dll
+J:\c# projects\PassportReservation\Domain\bin\Debug\net8.0\Domain.pdb
+J:\c# projects\PassportReservation\Domain\obj\Debug\net8.0\Domain.dll
+J:\c# projects\PassportReservation\Domain\obj\Debug\net8.0\refint\Domain.dll
+J:\c# projects\PassportReservation\Domain\obj\Debug\net8.0\Domain.pdb
+J:\c# projects\PassportReservation\Domain\obj\Debug\net8.0\ref\Domain.dll
