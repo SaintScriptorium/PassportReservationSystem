@@ -13,9 +13,9 @@ public class Usuario
     [Required,StringLength(11, MinimumLength = 11)]
     public string Cedula { get; set; }
     [Required, MaxLength(50)]
-    public int Nombre { get; set; }
+    public string Nombre { get; set; }
     [Required, MaxLength(50)]
-    public int Apellido { get; set; }
-
+    public string Apellido { get; set; }
+    
     public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.Now;
 }
