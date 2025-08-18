@@ -10,14 +10,14 @@ public class Reservation
 
     [Required]
     public Guid SlotId { get; set; }
-    public Slot Slot { get; set; }
 
     [Required]
     public Guid UserId { get; set; }
-    public Usuario User { get; set; }
 
     public int StationNumber { get; set; }
-
+    
+    [Required]
+    public string Turno { get; set; }
     [Required]
     public ReservationStatus Status { get; set; } = ReservationStatus.Confirmed;
 
