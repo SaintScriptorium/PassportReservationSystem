@@ -1,7 +1,6 @@
 using Application.DTOs;
 
-namespace Application.Interfaces;
-
+namespace Application.Interfaces.ServiceInterfaces;
 public interface IConfigurator
 {
     

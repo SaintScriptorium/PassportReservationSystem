@@ -6,6 +6,6 @@ public class ConfigurationDto
     public string Turno { get; set; }
     public TimeSpan StartTime { get; set; }
     public TimeSpan EndTime { get; set; }
-    public int SlotDuration { get; set; }
+    public int SlotDurationMinutes { get; set; }
     public int Stations { get; set; }
 }

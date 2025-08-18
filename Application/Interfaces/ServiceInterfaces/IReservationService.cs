@@ -1,7 +1,7 @@
 using Application.DTOs;
-namespace Application.Interfaces;
+namespace Application.Interfaces.ServiceInterfaces;
 public interface IReservationService
 {
-    Task <string> GenerateReservationAsync(CreateReservationDto reservationrRequest);
+    Task <string> PostReservationAsync(CreateReservationDto reservationrRequest);
     Task <IEnumerable<ReservationDto>> GetReservationsAsync(Guid userId);
 }
