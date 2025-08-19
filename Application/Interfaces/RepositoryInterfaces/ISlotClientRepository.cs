@@ -3,5 +3,5 @@ namespace Application.Interfaces.RepositoryInterfaces;
 
 public interface ISlotClientRepository
 {
-    Task<IEnumerable<Slot>> ShowSlots();
+    Task<IEnumerable<Slot>> ShowSlotsAsync();
 }
