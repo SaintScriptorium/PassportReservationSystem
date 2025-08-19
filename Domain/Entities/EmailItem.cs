@@ -4,8 +4,8 @@ namespace Domain.Entities;
 public class EmailItem
 {
     [Key]
-    public Guid Id { get; set; }
-    public Guid? ReservationId { get; set; }
+    public int Id { get; set; }
+    public int? ReservationId { get; set; }
     public string To { get; set; }
     public string Subject { get; set; }
     public string Body { get; set; }

@@ -5,7 +5,7 @@ namespace Domain.Entities;
 public class Configuration
 {
     [Key]
-    public Guid Id { get; set; }
+    public int Id { get; set; }
     [Required]
     public DateTime Date { get; set; }
     [Required]

@@ -8,5 +8,5 @@ public interface ISlotAdmin
     Task PostSlotAsync(ConfigurationDto config);
     Task  PutSlotAsync(ConfigurationDto config);
     Task<IEnumerable<Slot>> GetSlotsAsync();
-    Task DeleteSlotAsync(Guid SlotId);
+    Task DeleteSlotAsync(int slotId);
 }
