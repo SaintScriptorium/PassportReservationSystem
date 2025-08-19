@@ -8,5 +8,5 @@ public interface IConfigurator
     Task<string> PostConfiguration(ConfigurationDto config);
     Task<string> PutConfiguration(ConfigurationDto config);
     Task<IEnumerable<ConfigurationDto>> GetConfiguration();
-    Task<string> DeleteConfiguration(Guid Id);
+    Task<string> DeleteConfiguration(int Id);
 }

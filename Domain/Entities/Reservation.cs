@@ -6,13 +6,13 @@ public class Reservation
 {
     
     [Key]
-    public Guid Id { get; set; }
+    public int Id { get; set; }
 
     [Required]
-    public Guid SlotId { get; set; }
+    public int SlotId { get; set; }
 
     [Required]
-    public Guid UserId { get; set; }
+    public int UserId { get; set; }
 
     public int StationNumber { get; set; }
     

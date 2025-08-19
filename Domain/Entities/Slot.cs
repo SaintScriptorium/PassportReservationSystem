@@ -6,7 +6,7 @@ namespace Domain.Entities;
 public class Slot
 {
     [Key]
-    public Guid Id { get; set; }
+    public int Id { get; set; }
     [Required]
     public DateTime Start { get; set; }
     [Required]

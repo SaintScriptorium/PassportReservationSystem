@@ -5,7 +5,7 @@ namespace Domain.Entities;
 public class Usuario
 {
     [Key]
-    public Guid Id { get; set; }
+    public int Id { get; set; }
     [Required,EmailAddress,MaxLength(100)]
     public string Email { get; set; }
     [Required,MinLength(8)]
